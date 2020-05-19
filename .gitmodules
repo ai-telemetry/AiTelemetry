@@ -1,0 +1,3 @@
+[submodule "src/UdpReceiver"]
+	path = src/UdpReceiver
+	url = git@github.com:ai-telemetry/UdpReceiver.git
