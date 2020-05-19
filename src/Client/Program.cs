@@ -19,6 +19,8 @@ namespace AiTelemetry.Client
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            builder.Services.AddDevExpressBlazor();
+
             await builder.Build().RunAsync();
         }
     }
